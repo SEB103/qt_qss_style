@@ -6,8 +6,7 @@ https://github.com/SEB103/qt_qss_style.git
 
 ## Git global setup
 
-* git config --global user.name "Sergey Burkin"
-* git config --global user.email "sergeyburkin@gmail.com"
+* git config --global user.name "SB"
 
 ## Create a new repository
 
