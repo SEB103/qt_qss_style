@@ -1,0 +1,101 @@
+/*SEB Night Style*/
+
+/* ******************* Settings for all widgets. ******************* */
+QWidget {
+  background: #777777;
+  color: #cacaca;
+  font-weight: bold;
+}
+
+QMenuBar {
+  background: #474747;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+QMenuBar::item:selected {
+  /* when selected using mouse or keyboard */
+  background: #53728e;
+  color: #ffffff;
+}
+
+QMenuBar::item:pressed {
+  background: #53728e;
+  color: #ffffff;
+}
+
+QMenu {
+  background-color: #333333;
+  border-color: #53728e;
+  border-bottom-color: #222222;
+  border-right-color: #222222;
+  border-width: 2px;
+  border-style: solid;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+QMenu:hover {
+  background-color: #53728e; /*#53728e    #f0f0f0*/
+}
+
+QMenu:selected {
+  background-color: #53728e; /*#53728e    #f0f0f0*/
+}
+
+QToolBar {
+  background-color: #333333;
+}
+
+QStatusBar {
+  background-color: #474747;
+  color: #ffffff;
+}
+
+QStatusBar .QLabel {
+  color: #ffffff;
+}
+
+/* ******************* QPushButton, QToolButton******************* */
+QPushButton,
+QToolButton {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+QPushButton:hover,
+QToolButton:hover {
+  background-color: #53728e;
+  color: #ffffff;
+}
+
+QPushButton:pressed,
+QToolButton:pressed {
+  background-color: #262626;
+  color: #ffffff;
+  border-color: #53728e;
+  border-width: 4px;
+  border-style: solid;
+}
+
+QPushButton:disabled,
+QToolButton:disabled {
+  background-color: #686868;
+  color: #ffffff;
+}
+
+QPushButton:focus,
+QToolButton:focus {
+  background-color: #00ffff;
+  color: #1b2030;
+}
+/* ********************* Customize tooltips. ********************* */
+QToolTip {
+  background-color: #ffffff;
+  border-color: #474747;
+  border-width: 2px;
+  border-style: solid;
+  padding: 3px;
+  color: #474747;
+  font-weight: bold;
+}
